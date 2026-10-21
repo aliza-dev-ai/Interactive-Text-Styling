@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Text Styling</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Interactive Text Styling</h1>
+    <p class="subtitle">Use the buttons to customize the text below.</p>
+
+    <section id="textArea" class="text-area">
+      <p id="sampleText">Welcome to my Interactive Text Styling project! Use the controls to change my appearance.</p>
+    </section>
+
+    <section class="controls">
+      <h2>Text Color</h2>
+      <button data-color="crimson">Red</button>
+      <button data-color="blue">Blue</button>
+      <button data-color="green">Green</button>
+      <button id="randomColor">Random Color</button>
+
+      <h2>Font Size</h2>
+      <button id="decreaseSize">A− Decrease</button>
+      <button id="increaseSize">A+ Increase</button>
+
+      <h2>Font Family</h2>
+      <button data-font="Arial, sans-serif">Arial</button>
+      <button data-font="Georgia, serif">Georgia</button>
+      <button data-font="'Courier New', monospace">Courier New</button>
+
+      <h2>Text Decoration</h2>
+      <button data-decoration="underline">Underline</button>
+      <button data-decoration="overline">Overline</button>
+      <button data-decoration="line-through">Line-through</button>
+      <button id="removeDecoration">Remove Decoration</button>
+
+      <h2>Bold and Italic</h2>
+      <button id="boldButton">Bold</button>
+      <button id="italicButton">Italic</button>
+
+      <h2>Text Alignment</h2>
+      <button data-align="left">Left</button>
+      <button data-align="center">Center</button>
+      <button data-align="right">Right</button>
+
+      <h2>Uppercase and Lowercase</h2>
+      <button id="uppercaseButton">UPPERCASE</button>
+      <button id="lowercaseButton">lowercase</button>
+
+      <h2>Background Color</h2>
+      <button data-bg="#fff2cc">Cream</button>
+      <button data-bg="#d9ead3">Light Green</button>
+      <button data-bg="#d9eaf7">Light Blue</button>
+
+      <h2>Display Mode</h2>
+      <button id="modeButton">Toggle Dark / Light Mode</button>
+      <button id="resetButton" class="reset">Reset Everything</button>
+    </section>
+    <footer>Created with HTML, CSS and JavaScript</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
